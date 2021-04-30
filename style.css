@@ -1,0 +1,92 @@
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+font-weight: lighter;
+font-family: 'Antonio', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-weight: 500
+font-size: 40px;
+font-weight: lighter;
+}
+
+div{
+
+    padding: 69px;
+    margin: 110px;
+    background: #eee;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+}
+
+
+p{
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5{
+	text-align:center;
+}
+h1{
+	color:#20252F
+	font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900
+}
+h2{
+	color: #1f2667
+}
+h3{
+    color: #a2738c;
+    font-weight:bold;
+    font-family: 'Roboto Slab', serif;
+}
+h4{
+	font-size: 17px;
+	font-weight: 800;
+}
+h5{
+   font-weight: lighter;
+   color: #aa96da
+   
+}	
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: #f70ceb;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+
+.list-inline{
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+ 	display: inline;
+ 	padding: 10px;
+}
+
+
+
+@media (max-width: 760px){
+	.container {
+		width: 600px
+	}
+}
+@media (max-width: 500px){
+	.container {
+		width: 400px
+	}
+}
